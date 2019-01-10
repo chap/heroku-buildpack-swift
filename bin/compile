@@ -33,7 +33,7 @@ echo ""
 
 mkdir -p .heroku/swift
 
-SWIFT_RELEASE_URL="https://swift.org/builds/ubuntu1804/swift-$SWIFT_VERSION/swift-$SWIFT_VERSION-$SWIFT_PLATFORM.tar.gz"
+SWIFT_RELEASE_URL="https://swift.org/builds/swift-$SWIFT_VERSION/ubuntu1804/swift-$SWIFT_VERSION/swift-$SWIFT_VERSION-$SWIFT_PLATFORM.tar.gz"
 
 mkdir -p /app/.heroku
 ln -s $BUILD_DIR/.heroku/swift /app/.heroku/swift
