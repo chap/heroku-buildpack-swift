@@ -27,6 +27,3 @@ mkdir -p $BUILD_DIR/.profile.d
 cat > $BUILD_DIR/.profile.d/swift.sh <<EOF
 export PATH="/app/.heroku/swift/swift-$SWIFT_VERSION-$SWIFT_PLATFORM/usr/bin":$PATH
 EOF
-
-cd $BUILD_DIR && swift build
-
